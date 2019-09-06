@@ -28,6 +28,10 @@ pipelineConfig:
           value: muirp-owner
         - name: GIT_AUTHOR_EMAIL
           value: pmuir@bleepbleep.org.uk
+        - name: GIT_AUTHOR_NAME
+          value: muirp-owner
+        - name: GIT_AUTHOR_EMAIL
+          value: pmuir@bleepbleep.org.uk
         stages:
         - name: release
           steps:
