@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:jaguarivy/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: pmuir@bleepbleep.org.uk
+  token: vault:jaguarivy/pipelineUser:token
+  username: muirp-owner
+prow:
+  hmacToken: vault:jaguarivy/prow:hmacToken
